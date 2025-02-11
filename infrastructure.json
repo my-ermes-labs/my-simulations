@@ -1,0 +1,55 @@
+{
+  "areaIdentifiers": [
+    "states",
+    "cities"
+  ],
+  "areas": [
+    {
+      "areaName": "Italy",
+      "host": "<ip-1>",
+      "geoCoordinates": {
+        "latitude": 45.4642,
+        "longitude": 9.1900
+      },
+      "tags": {
+        "tag": "ec2-instance"
+      },
+      "resources": {
+        "cpu": 15,
+        "io": 15
+      },
+      "areas": [
+        {
+          "areaName": "Ravenna (PC)",
+          "host": "<ip-1.1>",
+          "geoCoordinates": {
+            "latitude": 44.4173,
+            "longitude": 12.2019
+          },
+          "tags": {
+            "tag": "laptop"
+          },
+          "resources": {
+            "cpu": 1,
+            "io": 1
+          }
+        },
+        {
+          "areaName": "Milan",
+          "host": "<ip-1.2>",
+          "geoCoordinates": {
+            "latitude": 45.4173,
+            "longitude": 9.2019
+          },
+          "tags": {
+            "tag": "ec2-instance"
+          },
+          "resources": {
+            "cpu": 1.34,
+            "io": 1.22
+          }
+        }
+      ]
+    }
+  ]
+}
