@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ermes-labs/api-go/api"
+	"github.com/my-ermes-labs/api-go/api"
 )
 
 // Client struct to represent each client
